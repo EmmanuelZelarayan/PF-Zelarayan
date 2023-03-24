@@ -1,0 +1,278 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+nav{
+    background: rgb(254,127,0);
+    background: linear-gradient(129deg, rgba(254,127,0,1) 0%, rgba(247,189,1,1) 77%, rgba(240,250,1,1) 100%);
+}
+
+body{
+    background-color: #f7f7f7;
+}
+/******************  HEADER  ***************/ 
+.header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.escudo{
+height: 100%;
+display: flex;
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: 1fr;
+justify-content: center;
+align-content: center;
+align-items: center;
+margin:10px
+}
+
+.shield{
+    margin-top: 5px;    
+    height: 250px;
+    display: grid;
+    justify-content: center;
+align-content: center;
+align-items: center;
+}
+
+/************ main ***************/
+
+.fondo {
+    height: 100vh;
+    background-image:url("../multimedia/imagenes/CAMPEONES.jpg");
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;        
+}
+
+.fondo {
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+footer p{
+    text-align: center;
+    color: black;
+}
+
+.partidos{
+    display:grid;
+    height: 300px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fecha {
+    
+    padding: 1px;
+    text-shadow: 4px 2px 3px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;    
+    
+}
+
+.fecha1{
+    color: rgb(255, 255, 255);
+    background: rgb(249,106,3);
+    background: linear-gradient(90deg, rgba(249,106,3,1) 50%, rgba(0,0,0,1) 100%);
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+
+.fecha2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;    
+    text-shadow: 3px 1px 1px #f96a03;
+}
+
+
+/********** SELECTION ************/
+
+.Cajita p::selection{
+    background: orangered;
+    color: #000000;
+    }
+    
+    .fecha1 p::selection{
+        background: rgb(255, 255, 255);
+        color: #000000;
+        text-shadow: 3px 1px 1px rgb(249, 106, 3)
+    }
+    
+    .fecha2 p::selection{
+        background: orangered;
+        color: white;
+        text-shadow: 3px 1px 1px rgb(0, 0, 0)
+    }
+    
+
+/********** INSTITUCION **********/
+
+.contenedorr {
+    display: grid;
+    grid-template-columns: repeat  (1, 3fr);
+    grid-template-rows: 1fr;
+    margin: 30px;
+    gap: 30px;
+
+
+}
+
+.cajja1{
+    display: flex;
+    gap: 20px;
+    background: rgb(255,109,4);
+    background: linear-gradient(130deg, rgba(255,109,4,1) 0%, rgba(247,189,1,1) 84%, rgba(240,250,1,1) 100%);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}   
+
+.cajja1 img{
+    width: 1000px;     
+    border-radius: 30px;
+    padding: 20px;
+}
+
+/************* SHOP *************/
+
+.ventas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin: 40px;
+    gap: 20px;
+} 
+
+.shop1{ 
+    display: flex;
+    flex-direction: column;
+    background: rgb(255,109,4);
+    background: linear-gradient(130deg, rgba(255,109,4,1) 0%, rgba(247,189,1,1) 84%, rgba(240,250,1,1) 100%);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.shop1 img{
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.shop1 h2{   
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.shop1 p{
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.rebaja{
+    color: red;
+    text-decoration: line-through;
+}
+
+.botoncito{
+    font-size: 30px;
+    width: 30%;
+    border-radius: 30px;
+    border: 5px;
+    background: rgb(94,9,250);
+    background: linear-gradient(87deg, rgba(94,9,250,1) 0%, rgba(177,5,216,1) 68%, rgba(250,1,186,1) 100%);
+    margin-bottom: 10px;
+}
+
+
+/*********** SELECTION ************/ 
+
+.shop1:hover{
+    background: rgb(215,160,3);
+    background: linear-gradient(180deg, rgba(215,160,3,1) 0%, rgba(253,104,29,1) 22%, rgba(0,0,0,1) 61%);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 10px 15px 5px;
+}
+
+.cajja1:hover{
+    background: rgb(215,160,3);
+    background: linear-gradient(180deg, rgba(215,160,3,1) 0%, rgba(253,104,29,1) 22%, rgba(0,0,0,1) 61%);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 10px 15px 5px;
+}
+
+
+/************ asdasd *************/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+
+.fraternos{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  
+}
+
+.sss1 img{
+    display: flex;    
+    width: 700px;
+    margin-left: -20px;
+    padding-top: 5px;
+}
+
+.sss2 img{
+    display: flex;
+    width: 350px;
+    padding-top: 30px;
+    
+}
+
+.sss1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sss2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fraternos h3{
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+}
+
+/***** responsive ********/
