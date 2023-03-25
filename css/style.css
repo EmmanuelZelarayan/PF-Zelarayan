@@ -239,38 +239,31 @@ footer {
     grid-template-rows: 1fr;
 }
 
-.sss1 img{
-    display: flex;    
-    width: 700px;
-    margin-left: -20px;
-    padding-top: 5px;
+.cajjasiamo{ 
+display: flex;
+color: white;
+padding: 30px;
+gap: 20px;
+background: rgb(5,0,0);
+background: linear-gradient(144deg, rgba(5,0,0,1) 0%, rgba(125,52,2,1) 44%, rgba(255,109,4,1) 100%);
+border-radius: 30px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+justify-content: center;
+align-items: center;
 }
 
-.sss2 img{
+.cajjaspartacus{  
     display: flex;
-    width: 350px;
-    padding-top: 30px;
-    
-}
-
-.sss1{
-    display: flex;
-    flex-direction: column;
+    color: white;
+    padding: 15px;
+    gap: 20px;
+    background: rgb(0,0,0);
+    background: linear-gradient(144deg, rgba(0,0,0,1) 0%, rgba(125,0,0,1) 54%, rgba(255,0,0,1) 100%);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     justify-content: center;
     align-items: center;
-}
-
-.sss2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.fraternos h3{
-    font-size: 50px;
-    font-family: 'Cinzel', serif;
-}
+    }
 
 /***** responsive ********/
 
@@ -328,4 +321,78 @@ footer {
         font-size: 100%;
         width: 7rem;
     }
+}
+@media(max-width: 993px) {
+    .header{
+    width: 100%;
+    }
+    .nav{
+        width: 100%;
+    }
+    }
+    .contendor {
+    display: flex;
+    flex-direction: column;
+    }
+    .cajjasiamo {
+    display: flex;
+    flex-direction: column;
+    
+}
+.escudosiamo{
+    width:100%;
+    }
+    .escudosparta{
+    width: 80%;
+    }
+    .cajjaspartacus{
+    display: flex;
+    flex-direction: column;         
+    }
+
+@media(max-width: 992px) {
+    .contendor {
+    display: flex;
+    flex-direction: column;
+    }
+    .cajjasiamo {
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .escudosiamo{
+    width:100%;
+    }
+    .escudosparta{
+    width: 90%;
+    }
+    .cajjaspartacus{
+    display: flex;
+    flex-direction: column;         
+    }
+
+}
+
+
+@media(max-width: 576px) {
+    .fraternos{
+    display: flex;
+    flex-direction: column;
+    }
+    .cajjasiamo {
+    display: flex;
+    flex-direction: column;
+    }
+    .escudosiamo{
+        width:100%;
+    }
+    .escudosparta{
+        width: 100%;
+    }
+    .cajjaspartacus{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
 }
