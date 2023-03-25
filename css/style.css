@@ -46,17 +46,17 @@ align-items: center;
 /************ main ***************/
 
 .fondo {
-    height: 100vh;
+    min-height: 72vh;
     background-image:url("../multimedia/imagenes/CAMPEONES.jpg");
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;        
 }
 
-.fondo {
+.fondo h1 {
     text-align: center;
     color: white;
-    font-size: 150px;
+    font-size: calc(1.375rem + 9.5vw);
     font-family: 'Cinzel', serif;
     text-shadow: 2px 2px 2px #000000;
 }
@@ -67,8 +67,6 @@ footer p{
 }
 
 .partidos{
-    display:grid;
-    height: 300px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -208,7 +206,6 @@ footer p{
     margin-bottom: 10px;
 }
 
-
 /*********** SELECTION ************/ 
 
 .shop1:hover{
@@ -240,7 +237,6 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-  
 }
 
 .sss1 img{
@@ -277,3 +273,20 @@ footer {
 }
 
 /***** responsive ********/
+
+@media(max-width: 500px) {
+    .fondo h1{
+        font-size: calc(1.375rem + 5.5vw);
+    }
+
+}
+
+@media(max-width: 1000px) {
+    .footer a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+}
