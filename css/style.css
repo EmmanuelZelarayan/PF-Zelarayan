@@ -322,35 +322,29 @@ align-items: center;
         width: 7rem;
     }
 }
-@media(max-width: 993px) {
-    .header{
-    width: 100%;
+
+@media (max-width: 1200px){
+    .contenedorr{
+        display: flex;
+        flex-direction: column;
     }
-    .nav{
+    .cajja1{
+        display: flex;
+        flex-direction: column;
+        }
+    .cajja1 p{
+        padding: 6px;
+    }
+    .cajja1 img{
+        width: 100%;
+
+    }
+    .primertitulo{
         width: 100%;
     }
-    }
-    .contendor {
-    display: flex;
-    flex-direction: column;
-    }
-    .cajjasiamo {
-    display: flex;
-    flex-direction: column;
-    
 }
-.escudosiamo{
-    width:100%;
-    }
-    .escudosparta{
-    width: 80%;
-    }
-    .cajjaspartacus{
-    display: flex;
-    flex-direction: column;         
-    }
 
-@media(max-width: 992px) {
+@media(max-width: 991px) {
     .contendor {
     display: flex;
     flex-direction: column;
@@ -369,6 +363,24 @@ align-items: center;
     .cajjaspartacus{
     display: flex;
     flex-direction: column;         
+    }
+    
+    .contenedorr{
+        display: flex;
+        flex-direction: column;
+    }
+    .cajja1{
+        display: flex;
+        flex-direction: column;
+        }
+    .cajja1 p{
+        padding: 6px;
+    }
+    .cajja1 img{
+        width: 100%;
+    }
+    .primertitulo{
+        width: 100%;
     }
 
 }
@@ -394,5 +406,8 @@ align-items: center;
         flex-direction: column;
         
     }
-
 }
+
+
+
+
