@@ -1,0 +1,179 @@
+@media(max-width: 500px) {
+    .fondo h1{
+        font-size: calc(1.375rem + 5.5vw);
+    }
+}
+    @media(max-width: 767px) {
+    .fecha1{
+        background: rgb(249,106,3);
+    }
+}
+
+@media(max-width: 1000px) {
+    .footer a{
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+}
+
+@media(max-width: 768px) {
+    .ventas{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .botoncito{
+        font-size: 100%;
+        width: 7rem;
+    }
+
+
+} 
+@media(max-width: 767px){
+    .ventas{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width: 576px) {
+    .ventas{
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+    }
+
+    .botoncito{
+        font-size: 100%;
+        width: 7rem;
+    }
+}
+
+
+
+@media(max-width: 991px) {
+    .contendor {
+    display: flex;
+    flex-direction: column;
+    }
+    .cajjasiamo {
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .escudosiamo{
+    width:100%;
+    }
+    .escudosparta{
+    width: 90%;
+    }
+    .cajjaspartacus{
+    display: flex;
+    flex-direction: column;         
+    }
+
+}
+
+@media(max-width: 576px) {
+    .fraternos{
+    display: flex;
+    flex-direction: column;
+    }
+    .cajjasiamo {
+    display: flex;
+    flex-direction: column;
+    }
+    .escudosiamo{
+        width:10rem;
+    }
+    .escudosparta{
+        width: 10rem;
+    }
+    .cajjaspartacus{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+
+@media (max-width: 540px){
+    .contenedorr{
+        display: flex;
+        flex-direction: column;
+    }
+    .cajja1{
+        display: flex;
+        flex-direction: column;
+        }
+    .cajja1 p{
+        padding: 1rem;
+        padding-top: 0rem;
+    }
+    img {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 991px){
+    .contenedorr{
+        display: flex;
+        flex-direction: column;
+    }
+    .cajja1{
+        display: flex;
+        flex-direction: column;
+        }
+    .cajja1 p{
+        padding: 1rem;
+    }
+    img {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 1500px){
+    .contenedorr{
+        display: flex;
+        flex-direction: column;
+    }
+    .cajja1{
+        display: flex;
+        flex-direction: column;
+        }
+    .cajja1 p{
+        padding: 1rem;
+    }
+    .primertitulo{
+        width: 60rem;
+    }
+    .segundotitulo{
+        width: 40rem;
+    }
+    .tercertitulo{
+        width: 20rem;
+    }
+}
+
+@media (max-width: 5000px){ 
+    .contenedorr{
+        display:flex;
+        flex-direction: column;
+    }
+    .cajja1{
+        display: flex;
+    }
+
+    .cajja1 p{
+        padding: 1rem;
+    }
+    .primertitulo{
+        width: 70rem;
+    }
+    .segundotitulo{
+        width: 70rem;
+    }
+    .tercertitulo{
+        width: 70rem;
+    }
+}

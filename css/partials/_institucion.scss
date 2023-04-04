@@ -8,7 +8,7 @@
 
     .cajja1{
         display: flex;
-        background: rgb(255,109,4);
+        background: #ff6d04;
         background: linear-gradient(130deg, rgba(255,109,4,1) 0%, rgba(247,189,1,1) 84%, rgba(240,250,1,1) 100%);
         border-radius: 30px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -16,10 +16,10 @@
         align-items: center;
     }   
 
-    .cajja1 img{
-        width: 1000px;     
+    .cajja1 img{   
         border-radius: 30px;
         padding: 20px;
+        max-width: 100%;
     }
 }
 
