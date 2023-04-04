@@ -1,0 +1,44 @@
+.partidos{
+    grid-template-columns: 1fr 1fr;
+
+    .fecha {    
+    padding: 1px;
+    text-shadow: 4px 2px 3px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column; }  
+    
+    .fecha1{
+    color: rgb(255, 255, 255);
+    background: $mainColor;
+    background: linear-gradient(90deg, $mainColor 50%, rgba(0,0,0,1) 100%);
+    font-size: 40px;
+    text-align: center;
+    }
+
+    .fecha2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;    
+    text-shadow: 3px 1px 1px $mainColor;
+}
+}
+
+.Cajita p::selection{
+    background: orangered;
+    color: #000000;
+    }
+    
+    .fecha1 p::selection{
+        background: rgb(255, 255, 255);
+        color: #000000;
+        text-shadow: 3px 1px 1px $mainColor;
+    }
+    
+    .fecha2 p::selection{
+        background: orangered;
+        color: white;
+        text-shadow: 3px 1px 1px rgb(0, 0, 0)
+    }

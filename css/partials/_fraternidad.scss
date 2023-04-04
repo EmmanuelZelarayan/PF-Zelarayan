@@ -1,0 +1,40 @@
+.fraternos{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+
+    .cajjasiamo{ 
+        display: flex;
+        color: white;
+        padding: 30px;
+        gap: 20px;
+        background: rgb(5,0,0);
+        background: linear-gradient(144deg, rgba(5,0,0,1) 0%, rgba(125,52,2,1) 44%, rgba(255,109,4,1) 100%);
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        justify-content: center;
+        align-items: center;
+        }
+
+    img { 
+        width: 30rem;
+        }
+
+    .cajjaspartacus{  
+        display: flex;
+        color: white;
+        padding: 15px;
+        gap: 20px;
+        background: rgb(0,0,0);
+        background: linear-gradient(144deg, rgba(0,0,0,1) 0%, rgba(125,0,0,1) 54%, rgba(255,0,0,1) 100%);
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        justify-content: center;
+        align-items: center;
+        }
+    
+    img {
+        width: 30rem;
+        }
+}

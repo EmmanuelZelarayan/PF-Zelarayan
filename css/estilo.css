@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: #fe7f00;
+  background: linear-gradient(129deg, rgb(254, 127, 0) 0%, rgb(247, 189, 1) 77%, rgb(240, 250, 1) 100%);
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+header .escudo {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 10px;
+}
+header .escudo .shield {
+  margin: 1px;
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.fondo {
+  min-height: 72vh;
+  background-image: url("../multimedia/imagenes/CAMPEONES.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fondo h1 {
+  text-align: center;
+  color: white;
+  font-size: calc(1.375rem + 9.5vw);
+  font-family: "Cinzel", serif;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.partidos {
+  grid-template-columns: 1fr 1fr;
+}
+.partidos .fecha {
+  padding: 1px;
+  text-shadow: 4px 2px 3px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.partidos .fecha1 {
+  color: rgb(255, 255, 255);
+  background: #f96a03;
+  background: linear-gradient(90deg, #f96a03 50%, rgb(0, 0, 0) 100%);
+  font-size: 40px;
+  text-align: center;
+}
+.partidos .fecha2 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 3px 1px 1px #f96a03;
+}
+
+.Cajita p::-moz-selection {
+  background: orangered;
+  color: #000000;
+}
+
+.Cajita p::selection {
+  background: orangered;
+  color: #000000;
+}
+
+.fecha1 p::-moz-selection {
+  background: rgb(255, 255, 255);
+  color: #000000;
+  text-shadow: 3px 1px 1px #f96a03;
+}
+
+.fecha1 p::selection {
+  background: rgb(255, 255, 255);
+  color: #000000;
+  text-shadow: 3px 1px 1px #f96a03;
+}
+
+.fecha2 p::-moz-selection {
+  background: orangered;
+  color: white;
+  text-shadow: 3px 1px 1px rgb(0, 0, 0);
+}
+
+.fecha2 p::selection {
+  background: orangered;
+  color: white;
+  text-shadow: 3px 1px 1px rgb(0, 0, 0);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+footer p {
+  text-align: center;
+  color: black;
+}
+
+.ventas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  margin-top: 30px;
+  gap: 30px;
+}
+.ventas .shop1 {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 109, 4);
+  background: linear-gradient(130deg, rgb(255, 109, 4) 0%, rgb(247, 189, 1) 84%, rgb(240, 250, 1) 100%);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  justify-content: center;
+  align-items: center;
+}
+.ventas .shop1 img {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+.ventas .shop1 h2 {
+  font-family: "Cinzel", serif;
+  font-size: 25px;
+  text-align: center;
+}
+.ventas .shop1 p {
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  margin: 10px;
+}
+.ventas .rebaja {
+  color: red;
+  text-decoration: line-through;
+}
+.ventas .botoncito {
+  font-size: 30px;
+  width: 10rem;
+  border-radius: 30px;
+  border: 5px;
+  background: rgb(94, 9, 250);
+  background: linear-gradient(87deg, rgb(94, 9, 250) 0%, rgb(177, 5, 216) 68%, rgb(250, 1, 186) 100%);
+  margin-bottom: 10px;
+}
+.ventas .shop1:hover {
+  background: rgb(215, 160, 3);
+  background: linear-gradient(180deg, rgb(215, 160, 3) 0%, rgb(253, 104, 29) 22%, rgb(0, 0, 0) 61%);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 10px 15px 5px;
+}
+
+.contenedorr {
+  display: grid;
+  grid-template-columns: repeat 1, 3fr;
+  grid-template-rows: 1fr;
+  margin: 30px;
+  gap: 30px;
+}
+.contenedorr .cajja1 {
+  display: flex;
+  background: rgb(255, 109, 4);
+  background: linear-gradient(130deg, rgb(255, 109, 4) 0%, rgb(247, 189, 1) 84%, rgb(240, 250, 1) 100%);
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorr .cajja1 img {
+  width: 1000px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.cajja1:hover {
+  background: rgb(215, 160, 3);
+  background: linear-gradient(180deg, rgb(215, 160, 3) 0%, rgb(253, 104, 29) 22%, rgb(0, 0, 0) 61%);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 10px 15px 5px;
+}
+
+.fraternos {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+.fraternos .cajjasiamo {
+  display: flex;
+  color: white;
+  padding: 30px;
+  gap: 20px;
+  background: rgb(5, 0, 0);
+  background: linear-gradient(144deg, rgb(5, 0, 0) 0%, rgb(125, 52, 2) 44%, rgb(255, 109, 4) 100%);
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  justify-content: center;
+  align-items: center;
+}
+.fraternos img {
+  width: 30rem;
+}
+.fraternos .cajjaspartacus {
+  display: flex;
+  color: white;
+  padding: 15px;
+  gap: 20px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(144deg, rgb(0, 0, 0) 0%, rgb(125, 0, 0) 54%, rgb(255, 0, 0) 100%);
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  justify-content: center;
+  align-items: center;
+}
+.fraternos img {
+  width: 30rem;
+}/*# sourceMappingURL=estilo.css.map */

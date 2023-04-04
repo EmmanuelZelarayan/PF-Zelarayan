@@ -1,10 +1,4 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 
@@ -17,11 +11,7 @@ body{
     background-color: #f7f7f7;
 }
 /******************  HEADER  ***************/ 
-.header{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
+
 
 .escudo{
 height: 100%;
@@ -122,104 +112,19 @@ footer p{
 
 /********** INSTITUCION **********/
 
-.contenedorr {
-    display: grid;
-    grid-template-columns: repeat  (1, 3fr);
-    grid-template-rows: 1fr;
-    margin: 30px;
-    gap: 30px;
 
-
-}
-
-.cajja1{
-    display: flex;
-    background: rgb(255,109,4);
-    background: linear-gradient(130deg, rgba(255,109,4,1) 0%, rgba(247,189,1,1) 84%, rgba(240,250,1,1) 100%);
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    justify-content: center;
-    align-items: center;
-}   
-
-.cajja1 img{
-    width: 1000px;     
-    border-radius: 30px;
-    padding: 20px;
-}
 
 /************* SHOP *************/
 
-.ventas{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    margin-top: 30px;
-    gap: 30px;
-    
-} 
 
-.shop1{ 
-    display: flex;
-    flex-direction: column;
-    background: rgb(255,109,4);
-    background: linear-gradient(130deg, rgba(255,109,4,1) 0%, rgba(247,189,1,1) 84%, rgba(240,250,1,1) 100%);
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    justify-content: center;
-    align-items: center;
 
-    
-}
 
-.shop1 img{
-    width: 100%;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-.shop1 h2{   
-    font-family: 'Cinzel', serif;
-    font-size: 30px;
-    text-align: center;
-}
-
-.shop1 p{
-    font-family: 'Cinzel', serif;
-    font-size: 30px;
-    margin: 10px;
-}
-
-.rebaja{
-    color: red;
-    text-decoration: line-through;
-}
-
-.botoncito{
-    font-size: 30px;
-    width: 10rem;
-    border-radius: 30px;
-    border: 5px;
-    background: rgb(94,9,250);
-    background: linear-gradient(87deg, rgba(94,9,250,1) 0%, rgba(177,5,216,1) 68%, rgba(250,1,186,1) 100%);
-    margin-bottom: 10px;
-}
 
 /*********** SELECTION ************/ 
 
-.shop1:hover{
-    background: rgb(215,160,3);
-    background: linear-gradient(180deg, rgba(215,160,3,1) 0%, rgba(253,104,29,1) 22%, rgba(0,0,0,1) 61%);
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 10px 15px 5px;
-}
 
-.cajja1:hover{
-    background: rgb(215,160,3);
-    background: linear-gradient(180deg, rgba(215,160,3,1) 0%, rgba(253,104,29,1) 22%, rgba(0,0,0,1) 61%);
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 10px 15px 5px;
-}
+
+
 
 
 /************ footer *************/
@@ -231,44 +136,14 @@ footer {
 }
 
 
-.fraternos{
-    background-color: white;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    
-}
 
-.cajjasiamo{ 
-display: flex;
-color: white;
-padding: 30px;
-gap: 20px;
-background: rgb(5,0,0);
-background: linear-gradient(144deg, rgba(5,0,0,1) 0%, rgba(125,52,2,1) 44%, rgba(255,109,4,1) 100%);
-border-radius: 30px;
-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-justify-content: center;
-align-items: center;
-}
-.escudosiamo{
-    width: 30rem;    
-}
+
+
+
 .escudosparta{
     width: 30rem;
 }
-.cajjaspartacus{  
-    display: flex;
-    color: white;
-    padding: 15px;
-    gap: 20px;
-    background: rgb(0,0,0);
-    background: linear-gradient(144deg, rgba(0,0,0,1) 0%, rgba(125,0,0,1) 54%, rgba(255,0,0,1) 100%);
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    justify-content: center;
-    align-items: center;
-    }
+
 
 /***** responsive ********/
 
