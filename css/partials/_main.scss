@@ -12,6 +12,11 @@
     font-family: 'Cinzel', serif;
     text-shadow: 2px 2px 2px #000000;
     }
+
+    h1::selection{
+        background-color: #0000008e;
+        color: white;
+    }
 }
 
 

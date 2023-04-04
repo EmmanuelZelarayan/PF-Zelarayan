@@ -21,6 +21,12 @@
         padding: 20px;
         max-width: 100%;
     }
+    
+    .pe-3::selection{
+        background-color: black;
+        color: white;
+    }
+    
 }
 
 .cajja1:hover{

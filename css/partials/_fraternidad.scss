@@ -37,4 +37,10 @@
     img {
         width: 18rem;
         }
+    
+    p::selection{
+        background-color: black;
+        color: white;
+    }
+    
 }

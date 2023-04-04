@@ -3,7 +3,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     margin-top: 30px;
-    gap: 30px;
+    margin-bottom: 70px;
+    gap: 60px;
 
     .shop1{ 
         display: flex;
@@ -53,5 +54,6 @@
         background: linear-gradient(180deg, rgba(215,160,3,1) 0%, rgba(253,104,29,1) 22%, rgba(0,0,0,1) 61%);
         color: white;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 10px 15px 5px;
+        transform:scale(1.1)translateY(1rem);
     }
 }

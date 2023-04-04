@@ -48,6 +48,14 @@ header .escudo .shield {
   font-family: "Cinzel", serif;
   text-shadow: 2px 2px 2px #000000;
 }
+.fondo h1::-moz-selection {
+  background-color: rgba(0, 0, 0, 0.5568627451);
+  color: white;
+}
+.fondo h1::selection {
+  background-color: rgba(0, 0, 0, 0.5568627451);
+  color: white;
+}
 
 .partidos {
   grid-template-columns: 1fr 1fr;
@@ -124,7 +132,8 @@ footer p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   margin-top: 30px;
-  gap: 30px;
+  margin-bottom: 70px;
+  gap: 60px;
 }
 .ventas .shop1 {
   display: flex;
@@ -169,6 +178,7 @@ footer p {
   background: linear-gradient(180deg, rgb(215, 160, 3) 0%, rgb(253, 104, 29) 22%, rgb(0, 0, 0) 61%);
   color: white;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 10px 15px 5px;
+  transform: scale(1.1) translateY(1rem);
 }
 
 .contenedorr {
@@ -191,6 +201,14 @@ footer p {
   border-radius: 30px;
   padding: 20px;
   max-width: 100%;
+}
+.contenedorr .pe-3::-moz-selection {
+  background-color: black;
+  color: white;
+}
+.contenedorr .pe-3::selection {
+  background-color: black;
+  color: white;
 }
 
 .cajja1:hover {
@@ -235,6 +253,14 @@ footer p {
 }
 .fraternos img {
   width: 18rem;
+}
+.fraternos p::-moz-selection {
+  background-color: black;
+  color: white;
+}
+.fraternos p::selection {
+  background-color: black;
+  color: white;
 }
 
 @media (max-width: 500px) {
