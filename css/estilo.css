@@ -44,7 +44,7 @@ header .escudo .shield {
 .fondo h1 {
   text-align: center;
   color: white;
-  font-size: calc(1.375rem + 9.5vw);
+  font-size: calc(1rem + 7vw);
   font-family: "Cinzel", serif;
   text-shadow: 2px 2px 2px #000000;
 }
