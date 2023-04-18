@@ -416,7 +416,7 @@ header .escudo .shield {
 footer {
   display: flex;
   flex-direction: column;
-  text-align: start;
+  text-align: center;
 }
 footer p {
   size: 30px;
@@ -426,8 +426,8 @@ footer p {
 footer a {
   font-size: 20px;
   color: black;
+  padding: 5px;
 }
 footer a:hover {
   color: #f96a03;
-  background-color: black;
 }/*# sourceMappingURL=estilo.css.map */

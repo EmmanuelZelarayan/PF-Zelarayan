@@ -1,7 +1,7 @@
 footer {
     display: flex;
     flex-direction: column;
-    text-align: start;
+    text-align: center;
 
     p { 
         size: 30px;
@@ -11,10 +11,10 @@ footer {
     a{
         font-size: 20px;
         color: black;
+        padding: 5px;
     }
+    
     a:hover{
         color:$mainColor;
-        background-color: black;
-
     }
 }
