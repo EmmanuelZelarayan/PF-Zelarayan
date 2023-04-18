@@ -448,7 +448,8 @@ footer .sponsors, footer .sponsor2, footer .sponsor3, footer .sponsor4, footer .
   margin-bottom: 10px;
 }
 footer .sponsors :hover, footer .sponsor2 :hover, footer .sponsor3 :hover, footer .sponsor4 :hover, footer .sponsor5 :hover {
-  background-color: #f96a03;
+  color: white;
+  background: linear-gradient(180deg, rgb(215, 160, 3) 0%, rgb(253, 104, 29) 22%, rgb(0, 0, 0) 61%);
 }
 footer .sponsor1, footer .sponsor2, footer .sponsor3, footer .sponsor4, footer .sponsor5 {
   font-size: 25px;
