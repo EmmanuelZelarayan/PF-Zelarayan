@@ -417,17 +417,45 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: rgba(122, 122, 122, 0.8156862745);
+  padding-top: 30px;
+}
+footer ::-moz-selection {
+  background-color: black;
+}
+footer ::selection {
+  background-color: black;
 }
 footer p {
-  size: 30px;
+  font-size: 18px;
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 footer a {
-  font-size: 20px;
-  color: black;
-  padding: 5px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding: 7px;
 }
 footer a:hover {
   color: #f96a03;
+}
+footer .sponsors, footer .sponsor2, footer .sponsor3, footer .sponsor4, footer .sponsor5 {
+  display: flexbox;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Cizel", serif;
+  margin-bottom: 10px;
+}
+footer .sponsors :hover, footer .sponsor2 :hover, footer .sponsor3 :hover, footer .sponsor4 :hover, footer .sponsor5 :hover {
+  background-color: #f96a03;
+}
+footer .sponsor1, footer .sponsor2, footer .sponsor3, footer .sponsor4, footer .sponsor5 {
+  font-size: 25px;
+  padding: 10px;
+  max-width: 100%;
+  border-radius: 10px;
+  background-color: rgba(122, 122, 122, 0.8156862745);
+  border: 0px;
+  margin: 10px;
 }/*# sourceMappingURL=estilo.css.map */
