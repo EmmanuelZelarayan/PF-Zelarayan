@@ -117,16 +117,6 @@ header .escudo .shield {
   text-shadow: 3px 1px 1px rgb(0, 0, 0);
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-}
-footer p {
-  text-align: center;
-  color: black;
-}
-
 .ventas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -422,4 +412,22 @@ footer p {
   .tercertitulo {
     width: 70rem;
   }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+footer p {
+  size: 30px;
+  text-align: center;
+  color: black;
+}
+footer a {
+  font-size: 20px;
+  color: black;
+}
+footer a:hover {
+  color: #f96a03;
+  background-color: black;
 }/*# sourceMappingURL=estilo.css.map */

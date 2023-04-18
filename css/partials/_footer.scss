@@ -3,8 +3,18 @@ footer {
     flex-direction: column;
     text-align: start;
 
-    p {
+    p { 
+        size: 30px;
         text-align: center;
         color: black;
+    }
+    a{
+        font-size: 20px;
+        color: black;
+    }
+    a:hover{
+        color:$mainColor;
+        background-color: black;
+
     }
 }
